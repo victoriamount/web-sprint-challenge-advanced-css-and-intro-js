@@ -173,6 +173,9 @@ button:hover{
         height:50vh;
         margin:4% 0;
     }	
+    .title-container hr{
+        width:100%;
+    }
 
     /* Artist Styles */
     .artists-container{
@@ -188,6 +191,7 @@ button:hover{
         width:70%;
         text-align:center;
         font-size: 1.5rem;
+        padding: 3% 0;
     }
     .artist img{
         height: 100%;
