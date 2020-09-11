@@ -243,7 +243,7 @@ console.log(getArtistByIndex(artists, 0)); // Returns according to prompt
 function get20s(myArray){
   let artistHolderArray = [];
   let yearHolderArray = [];
-  for (let i = 0; i < myArray.length-1; i++) {
+  for (let i = 0; i < myArray.length; i++) {
     yearHolderArray = myArray[i].years.split(" ");
     // console.log(yearHolderArray);
     if (yearHolderArray[0] >= 1900 && yearHolderArray[2] < 2000) {
@@ -253,7 +253,7 @@ function get20s(myArray){
   return artistHolderArray;
 }
 
-console.log(get20s(artists));
+console.log(get20s(artists)); 
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
